@@ -1,0 +1,178 @@
+.search {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-title {
+  position: relative;
+  font-size: 24pt;
+  padding-right: 20px;
+  padding-left: 8px;
+  height: 41px;
+  vertical-align: bottom;
+}
+
+.search__query {
+  height: 41px;
+  display: flex;
+  border-bottom: 1px solid #ddd; }
+
+.search__query #examples a {
+  position: absolute;
+  right: 3px;
+  bottom: 3px;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+.search .search-box {
+  height: 40px;
+  display: flex;
+  flex: 1;
+  box-sizing: inherit;
+}
+
+.search-box__icon {
+  margin: 10px 0 0 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 20px 20px;
+  -ms-flex: 0 20px 20px;
+  flex: 0 20px 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  opacity: .3;
+}
+
+.search-box__icon:before {
+  content: "";
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCgo8IS0tIFRoZSBpY29uIGNhbiBiZSB1c2VkIGZyZWVseSBpbiBib3RoIHBlcnNvbmFsIGFuZCBjb21tZXJjaWFsIHByb2plY3RzIHdpdGggbm8gYXR0cmlidXRpb24gcmVxdWlyZWQsIGJ1dCBhbHdheXMgYXBwcmVjaWF0ZWQuIApZb3UgbWF5IE5PVCBzdWItbGljZW5zZSwgcmVzZWxsLCByZW50LCByZWRpc3RyaWJ1dGUgb3Igb3RoZXJ3aXNlIHRyYW5zZmVyIHRoZSBpY29uIHdpdGhvdXQgZXhwcmVzcyB3cml0dGVuIHBlcm1pc3Npb24gZnJvbSBpY29ubW9uc3RyLmNvbSAtLT4KCgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoKCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCjxwYXRoIGlkPSJtYWduaWZpZXItMi1pY29uIiBkPSJNNDYwLjM1NSw0MjEuNTlMMzUzLjg0NCwzMTUuMDc4YzIwLjA0MS0yNy41NTMsMzEuODg1LTYxLjQzNywzMS44ODUtOTguMDM3CgoJQzM4NS43MjksMTI0LjkzNCwzMTAuNzkzLDUwLDIxOC42ODYsNTBDMTI2LjU4LDUwLDUxLjY0NSwxMjQuOTM0LDUxLjY0NSwyMTcuMDQxYzAsOTIuMTA2LDc0LjkzNiwxNjcuMDQxLDE2Ny4wNDEsMTY3LjA0MQoKCWMzNC45MTIsMCw2Ny4zNTItMTAuNzczLDk0LjE4NC0yOS4xNThMNDE5Ljk0NSw0NjJMNDYwLjM1NSw0MjEuNTl6IE0xMDAuNjMxLDIxNy4wNDFjMC02NS4wOTYsNTIuOTU5LTExOC4wNTYsMTE4LjA1NS0xMTguMDU2CgoJYzY1LjA5OCwwLDExOC4wNTcsNTIuOTU5LDExOC4wNTcsMTE4LjA1NmMwLDY1LjA5Ni01Mi45NTksMTE4LjA1Ni0xMTguMDU3LDExOC4wNTZDMTUzLjU5LDMzNS4wOTcsMTAwLjYzMSwyODIuMTM3LDEwMC42MzEsMjE3LjA0MQoKCXoiLz4KCjwvc3ZnPgoK) no-repeat 0 0;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  display: block;
+  box-sizing: inherit;
+}
+
+.search-box__text {
+  color:black;
+  background: transparent;
+  font-size: 16px;
+  padding-left: 10px;
+  padding: 10px 20px;
+  width: 100%;
+  -webkit-box-flex: 3;
+  flex: 3;
+  border: none;
+}
+
+.metric {
+  margin-left:8px;
+  margin: 4px;
+}
+
+.metric-name {
+  position: relative;
+  display: inline-block;
+  /* background-color:#eeeeee; */
+}
+
+.metric-desc {
+  position: relative;
+  display: inline-block;
+  margin-left:8px;
+  /* background-color:#dddddd; */
+}
+
+.metric-verbose {
+}
+
+.ns {
+  color: cornflowerblue;
+}
+
+.desc {
+  padding: 10px;
+  padding-left: 12px;
+  color: #222222;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #efefef;
+}
+
+/* keep the highlighted and preview images bound to the div */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  font-family: arial;
+}
+
+.hide {
+   display: none;
+   visibility: hidden;
+}
+.show {
+  display: block;
+  visibility: visible;
+}
+
+.subtitle {
+  position: relative;
+  font-size: 18pt;
+  /* border: 1px solid pink; */
+}
+
+.search #logo {
+  height: 36px;
+  padding: 2px;
+}
+
+.search__results {
+  margin-top: 8px;
+  margin-left: 0px;
+  padding-top: 4px;
+}
+
+.primary_metric {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.primary_metric th {
+  background: black;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  margin: 0px;
+  font-weight: normal;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.primary_metric td {
+  color: #333333;
+  padding: 2px 10px 2px 10px;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
