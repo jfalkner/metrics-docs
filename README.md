@@ -1,6 +1,8 @@
 # Metrics Documentation
 
-Make searchable, easy-to-use web documentation for metrics or really anything. The design here is static web content (HTML/CSS/JS + ReactJS) is made that summarizes verbose docs. The sort of docs everyone needs to know but won't ready because is it otherwise probably a big table in Word doc stashed in your company's document management system.
+Make searchable, easy-to-use web documentation for [metrics](https://github.com/jfalkner/metrics) or really anything. The design here is to have interactive web content (HTML/CSS/JS + ReactJS) that summarizes verbose docs. The sort of docs everyone needs to know but won't read because is it otherwise probably a big table in Word doc stashed in your company's document management system.
+
+With this setup, you have a simple way to quickly lookup by name, namespace or tag. And direct links with ?q= can specify what metric to show.
 
 ## Usage
 
